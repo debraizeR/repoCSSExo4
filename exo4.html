@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+        <title>Première page</title>
+        <link href="C:\Users\zack-\Desktop\formation\repoCSSExo4\cssExo4.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<form action="" method="">
+
+			<fieldset class="field1">
+				<legend class="legend1">Votre identité</legend>
+				<ol>
+					<li><label>Nom : </label><input type="text" id="Name" name="Nom"  placeholder="Nom" required></input></li>
+					<li><label>Prénom : </label><input type="text" id="FirstName" name="Prénom" placeholder="Prénom" required></input></li>
+					<li><label>Adresse mail : </label><input type="text" id="Mail" name="Mail" placeholder="Adresse mail" required></input></li>
+				</ol>
+			</fieldset>
+
+			<fieldset class="field2">
+				<legend class="legend2">Adresse de livraison</legend>
+				<ol>
+					<li><label>Adresse : </label><textarea rows="5" cols="10" id="Address" name="Adresse" required></textarea></li>
+					<li><label>Code Postal : </label><input type="text"  id="zipcode" name="CodePostal" placeholder="Code postal" required></input></li>
+					<li><label>Ville : </label><input type="text"  id="City" name="Ville" placeholder="Ville" required></input></li>
+				</ol>
+			</fieldset>
+
+
+			<fieldset class="field3">
+				<legend class="legend3">Informations de réglement</legend>
+				<ol>
+					<li><label>Type de carte bancaire : </label></li>
+						<ul>
+							<li><input type="radio" id="VISA" name="cardType" value="VISA" required checked ></input><label>VISA</label></li>
+							<li><input type="radio" id="Mastercard" name="cardType" value="Mastercard" required ></input><label>Mastercard</label></li>
+						</ul>
+					<li><label>Numéro de carte : </label><input type="text" id="CardNumber" name="NuméroCarte" placeholder="Numéro de carte" required></input></li>
+					<li><label>Code de sécurité : </label><input type="text" id="SecurityCode" name="CodeSécurité" placeholder="Code de sécurité" required></input></li>
+					<li><label>Nom du titulaire : </label><input type="text" id="Name" name="NomTitulaire" placeholder="Nom du titulaire" required></input></li>
+				</ol>
+			</fieldset>
+
+			<input type="submit" name="button" value="J'achète!"></input>
+		</form>
+	</body>
+</html>
